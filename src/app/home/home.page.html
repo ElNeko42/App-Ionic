@@ -5,7 +5,22 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div id="container">
-    <button [routerLink]="['/customers']" class="btn">Go to customers</button>
-  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto">Texto 1</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto">Texto 2</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="9">
+        <div class="texto">Texto 3</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="3">
+        <div class="texto">Texto 4</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
