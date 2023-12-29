@@ -6,7 +6,11 @@ const config: CapacitorConfig = {
   webDir: 'www',
   server: {
     androidScheme: 'https'
-  }
+  },
+  plugins: {
+    Http: {
+    },
+  },
 };
 
 export default config;

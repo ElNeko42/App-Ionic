@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "name": "Han",
+            "state": "Look, kid ...",
+            "description": "Han Solo is a fictional character in the Star Wars franchise,...",
+            "image": "avatar-han.png"
+        },
+        {
+            "name": "Luke",
+            "state": "I'm Luke Skywalker. I'm here to rescue you.",
+            "description": "Luke Skywalker is a fictional character and the main protagonist ...",
+            "image": "avatar-luke.png"
+        },
+        {
+            "name": "Leia",
+            "state": "Help me, Obi-Wan Kenobi. You're my only hope.",
+            "description": "Princess Leia Organa of Alderaan ....",
+            "image": "avatar-leia.png"
+        }
+    ]
+}
