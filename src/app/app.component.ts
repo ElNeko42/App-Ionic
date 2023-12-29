@@ -9,6 +9,7 @@ export class AppComponent {
     
     { title: 'Home', url: '/home', icon: 'home' },
     { title: 'customers', url: '/customers', icon: 'person' },
+    {title:"Cities" ,url:'/cities',icon:'globe'},
   ];
 
   constructor() { }

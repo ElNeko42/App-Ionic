@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "name": "Nueva York",
+            "image": "nueva_york.jpg"
+        },
+        {
+            "name": "O Porto",
+            "image": "oporto.jpg"
+        },
+        {
+            "name": "Osaka",
+            "image": "osaka.jpg"
+        },
+        {
+            "name": "Roma",
+            "image": "roma.jpg"
+        }
+    
+    ]
+}
