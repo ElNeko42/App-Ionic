@@ -5,10 +5,7 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-list>
-  <ion-list-header>
-      
-  </ion-list-header>
+  <ion-list *ngIf="permissions">
     <ion-item *ngFor="let user of users">
       <ion-avatar slot="start">
         <img src="https://ionicframework.com/docs/demos/api/list/{{user.image}}">
@@ -20,5 +17,5 @@
       </ion-label>
     </ion-item>
   </ion-list>
-
+<ion-label *ngIf="!permissions">You don't have permission to view this page</ion-label>
 </ion-content>

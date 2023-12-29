@@ -10,10 +10,12 @@ import { map } from 'rxjs/operators';
 })
 export class CustomersPage implements OnInit {
   users: any = [];
+  permissions: boolean = false;
   constructor(private router: Router,
     private http: HttpClient,) { }
 
   ngOnInit() {
+    this.permissions = true;
     this.getUsers().subscribe(res => {
       console.log("Res", res);
       this.users = res;
