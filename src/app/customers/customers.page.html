@@ -9,6 +9,13 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
+  <ion-content>
+    <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content></ion-refresher-content>
+    </ion-refresher>
+  </ion-content>
+
   <ion-list *ngIf="permissions">
     <ion-item *ngFor="let user of searchedUser">
       <ion-avatar slot="start">
