@@ -2,11 +2,15 @@
   <ion-toolbar color="mycolor">
     <ion-title>customers</ion-title>
   </ion-toolbar>
+
+  <ion-toolbar  color="mycolor">
+    <ion-searchbar placeholder="buscar" animated (ionChange)="searchCustomer($event)"></ion-searchbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-list *ngIf="permissions">
-    <ion-item *ngFor="let user of users">
+    <ion-item *ngFor="let user of searchedUser">
       <ion-avatar slot="start">
         <img src="https://ionicframework.com/docs/demos/api/list/{{user.image}}">
       </ion-avatar>
