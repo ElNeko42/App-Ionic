@@ -1,21 +1,28 @@
 {
     "data": [
         {
+            "id": 0,
             "name": "Nueva York",
-            "image": "nueva_york.jpg"
+            "image": "nueva_york.jpg",
+            "desc": "Nueva York es la ciudad más poblada de los Estados Unidos de América y una de las más pobladas del mundo. Desde finales del siglo XIX es uno de los centros de la economía mundial. Nueva York está considerada como una ciudad global, dada su influencia a nivel mundial en los medios de comunicación, en la política, en la educación, en el entretenimiento y las artes, en gran parte gracias a su cultura cosmopolita. La influencia artística y cultural de la ciudad es de las más fuertes del país. En la ciudad se encuentran algunos de los museos más importantes y conocidos del mundo, como el Museo Metropolitano de Arte, el Museo Americano de Historia Natural, el Museo de Arte Moderno y el Guggenheim. Times Square, icono de la ciudad, es el centro de la escena del espectáculo mundial. La ciudad también es sede de la Organización de las Naciones Unidas, lo que la convierte en un importante centro para los asuntos internacionales."
         },
         {
+            "id": 1,
             "name": "O Porto",
-            "image": "oporto.jpg"
+            "image": "oporto.jpg",
+            "desc": "O Porto es una ciudad de portugal, situada en el noroeste del país, capital del distrito homónimo y de la región Norte y antigua capital de la provincia tradicional de Entre Douro e Minho. La ciudad, con 237 559 habitantes (2011), es el centro de una conurbación de 1 759 524 habitantes (2011) y de un área metropolitana de 1 286 000 habitantes (2011), lo que la convierte en la segunda ciudad más poblada del país, tras Lisboa. La ciudad es conocida como la Ciudad Invicta por no haber sido conquistada por ningún rey durante la Reconquista, y por su resistencia durante la Guerra Civil Portuguesa. Su nombre proviene de la unión del latín Portus, puerto, y del celta Cale, nombre de una población indígena prerromana, lo que se traduce como «el puerto de Cale»."
         },
         {
+            "id": 2,
             "name": "Osaka",
-            "image": "osaka.jpg"
+            "image": "osaka.jpg",
+            "desc": "Osaka es una ciudad japonesa "
         },
         {
+            "id": 3,
             "name": "Roma",
-            "image": "roma.jpg"
+            "image": "roma.jpg",
+            "desc": "Roma es una ciudad italiana, capital de la región del Lacio y de Italia. Es el municipio más poblado de Italia y es la cuarta ciudad más poblada de la Unión Europea. Por antonomasia se la conoce como la Ciudad Eterna, l'Urbe (‘la Ciudad’) o Città Eterna. También es llamada «La Ciudad de las Siete Colinas» o «La Ciudad de las Artes»."
         }
-    
     ]
 }
