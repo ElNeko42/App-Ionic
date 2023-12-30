@@ -17,6 +17,12 @@
             "state": "Help me, Obi-Wan Kenobi. You're my only hope.",
             "description": "Princess Leia Organa of Alderaan ....",
             "image": "avatar-leia.png"
+        },
+        {
+            "name": "Chewbacca",
+            "state": "G",
+            "description": "Chewbacca, nicknamed \"Chewie\", is a fictional character in the Star Wars franchise...",
+            "image": "avatar-chewbacca.png"
         }
     ]
 }
